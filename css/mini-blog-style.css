@@ -105,6 +105,27 @@ a {
 }
 
 
+/* Styling Section Divider */
+
+.section-divider {
+    color: rgb(30, 86, 238);
+}
+
+
+/* Styling The Footer */
+
+footer {
+    background-color: rgb(107, 201, 233);
+    border: solid 3px rgb(30, 86, 238);
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+footer p {
+    margin-top: 15px;
+}
+
+
 /* Responsive Styling  */
 
 @media (min-width:768px) {
