@@ -1,0 +1,120 @@
+/* Styling Html */
+
+html {
+    font-size: 14px;
+}
+
+
+/* Styling Body */
+
+body {
+    background-color: rgba(107, 202, 233, 0.596);
+}
+
+
+/* Styling The Menu Bar */
+
+#header {
+    background-color: rgb(107, 201, 233);
+    border-bottom: solid 2px rgb(30, 86, 238);
+}
+
+
+/* Styling Menu Bar Links */
+
+a {
+    font-family: magneto;
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+
+.active {
+    border-bottom: solid 1px white;
+}
+
+
+/* Styling The Blog Header */
+
+#blog-heading {
+    margin-top: 7rem;
+    max-width: 700px;
+    font-family: sans-serif;
+}
+
+#globe {
+    color: green;
+}
+
+
+/* Styling The Profile Pictures */
+
+.container {
+    max-width: 960px;
+}
+
+.container img {
+    border: solid 2px rgb(30, 86, 238);
+    margin-bottom: 2px;
+}
+
+.container img:hover {
+    border: solid 2px gray;
+}
+
+.team {
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    margin-bottom: 2rem;
+}
+
+
+/* Styling The Posts */
+
+.card-deck .card {
+    min-width: 220px;
+}
+
+.card-header {
+    text-align: center;
+    font-family: magneto;
+    background-color: rgba(107, 202, 233, 0.774);
+    border: solid 3px rgb(30, 86, 238);
+}
+
+.card-body img {
+    border: solid 3px rgb(107, 201, 233);
+}
+
+.card-body img:hover {
+    border: solid 3px gray;
+}
+
+.card-text {
+    padding-top: 1rem;
+    font-family: sans-serif;
+}
+
+.card-block {
+    min-height: 220px;
+}
+
+#like:hover {
+    color: red;
+}
+
+
+/* Responsive Styling  */
+
+@media (min-width:768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+@media (max-width:768px) {
+    #blog-heading {
+        margin-top: 8rem;
+    }
+}
